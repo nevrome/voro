@@ -22,3 +22,4 @@ RoxygenNote: 7.1.1
 LinkingTo: Rcpp
 URL: https://github.com/nevrome/voro
 BugReports: https://github.com/nevrome/voro
+SystemRequirements: GNU make
