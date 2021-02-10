@@ -16,7 +16,8 @@ const int max_regions=16777216;
 
 // This message is displayed if the user requests version information
 void version_message() {
-  puts("Voro++ version 0.4.5 (July 27th 2012)");
+  //puts("Voro++ version 0.4.5 (July 27th 2012)");
+  Rcout << "Voro++ version 0.4.5 (July 27th 2012)" << std::endl;
 }
 
 // Prints an error message. This is called when the program is unable to make
@@ -75,11 +76,8 @@ SEXP voropp_Rcpp_interface(StringVector argv) {
   
   int argc = argv.length();
   
-  Rcout << argc << std::endl;
-  
-  // int i = 1;
-  // 
-  // return wrap(i);
+  Rcout << "Number of input arguments: " << argc << std::endl;
+  Rcout << "Input arguments " << argv << std::endl;
 
   int i=1,j=-7,custom_output=0,nx,ny,nz,init_mem(8);
   double ls=0;
