@@ -6,7 +6,7 @@
 \alias{voro-package}
 \title{voro: R interface to the Voro++ software library}
 \description{
-Voro++ (http://math.lbl.gov/voro++) is a open source software library for the computation of the Voronoi diagram, a widely-used tessellation that has applications in many scientific fields. This package wraps the library and provides an R interface.
+Voro++ (http://math.lbl.gov/voro++) is an open source software library for the computation of the Voronoi diagram, a widely-used tessellation that has applications in many scientific fields. This package wraps the library and provides an R interface.
 }
 \seealso{
 Useful links:
