@@ -2,3 +2,7 @@
 ^\.Rproj\.user$
 ^\.gitignore$
 ^\.travis\.yml$
+\.a$
+\.o$
+\.so$
+\.dll$
