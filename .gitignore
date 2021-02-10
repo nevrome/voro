@@ -37,3 +37,12 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# bytecode
+*.o
+*.so
+*.dll
+*.a
+
+# rendered documents
+*.html

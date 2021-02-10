@@ -1,0 +1,9 @@
+.PHONY: all libvoro++.a
+
+all: $(SHLIB)
+$(SHLIB): libvoro++.a
+
+libvoro++.a: 
+	$(MAKE) --directory=voro++0.4.6 libvoro++.a
+	
+PKG_LIBS = -Lvoro++0.4.6 -lvoro++
